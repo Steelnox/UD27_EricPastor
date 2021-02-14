@@ -129,3 +129,74 @@ DELETE    /api/Asignados_a/{id}
 #### 5. Screenshot imagen que indique cómo debe verse el proyecto.
 ![image](https://user-images.githubusercontent.com/11030691/107881387-70437500-6ee4-11eb-9587-9fae2768dcc1.png)
 
+# UD27_EricPastor_Ej3
+
+
+#### 1. Description
+```
+Demo API REST creada con .NET COre 3.1 utilizando varias entidades ER y conectada con base de datos 
+MS Sql Virtualizada sobre Fedora 32  y Virtualbox 6.1. Aplicación con fines educativos.
+```
+
+#### 2. Link a un demo con el proyecto desplegado: https://github.com/Steelnox/UD27_EricPastor
+
+```
+* Nombre de la App: [GIT] (https://github.com/)
+```
+#### 3. Lista con los pasos mínimos que se necesitan para clonar exitosamente el proyecto y echarlo a andar en local.
+
+###### Install
+```
+IDE               Visual Studio 2019 Community Version
+Core              C# 
+Framework         NET Core 3.1
+DataBase          Microsoft Sql Server 
+Virtual           VirtualBox 6.1
+SO                Fedora 32
+```
+###### packages Nuget 
+```
+Install-Package Microsoft.VisualStudio.Web.CodeGeneration.Design  -Version 3.1.4
+Install-Package Microsoft.EntityFrameworkCore.Tools               -Version 3.1.8
+Install-Package Microsoft.EntityFrameworkCore.SqlServer           -Version 3.1.8
+```
+###### Cadena de Conexión Base de datos 
+```
+"AllowedHosts": "*",
+    "ConnectionStrings": {
+        "DatabaseConnection": "Server=192.168.0.29;Database=UD27_Ej3;User ID=Eric; Password=Root_1234"
+    }
+```
+#### 4. URIs endpoints.
+```
+Cajeros
+GET       /api/Cajeros
+POST      /api/Cajeros
+GET       /api/Cajeros/{id}
+PUT       /api/Cajeros/{id}
+DELETE    /api/Cajeros/{id}
+
+Productos
+GET       /api/Productos
+POST      /api/Productos
+GET       /api/Productos/{id}
+PUT       /api/Productos/{id}
+DELETE    /api/Productos/{id}
+
+Maquinas_registradoras
+GET       /api/Maquinas_registradoras
+POST      /api/Maquinas_registradoras
+GET       /api/Maquinas_registradoras/{id}
+PUT       /api/Maquinas_registradoras/{id}
+DELETE    /api/Maquinas_registradoras/{id}
+
+Venta
+GET       /api/Venta
+POST      /api/Venta
+GET       /api/Venta/{id}
+PUT       /api/Venta/{id}
+DELETE    /api/Venta/{id}
+```
+
+#### 5. Screenshot imagen que indique cómo debe verse el proyecto.
+![image](https://user-images.githubusercontent.com/11030691/107883441-43e12600-6eef-11eb-9425-93162e455513.png)
