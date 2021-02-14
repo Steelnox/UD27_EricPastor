@@ -61,3 +61,4 @@ DELETE    /api/Suministras/{id}
 ```
 
 #### 5. Screenshot imagen que indique cómo debe verse el proyecto.
+![image](https://user-images.githubusercontent.com/11030691/107878815-5b131a00-6ed5-11eb-9729-6044e9e6c177.png)
